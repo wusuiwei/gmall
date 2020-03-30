@@ -8,6 +8,8 @@
     <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>gmall-mpg</module>
+        <module>gmall-common</module>
+        <module>gmall-api</module>
     </modules>
     <name>gmall</name>
     <description>商城项目</description>

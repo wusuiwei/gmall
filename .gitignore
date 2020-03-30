@@ -1,8 +1,13 @@
 # Created by .ignore support plugin (hsz.mobi)
 ### JetBrains template
 .idea
-*.iml
 out/
+.mvn
+*.iml
+mvnw
+mvnw.cmd
+HELP.md
+
 
 
 ### Java template
