@@ -1,16 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.5.RELEASE</version>
+    </parent>
+
     <groupId>com.wusuiwei</groupId>
-    <artifactId>gmall</artifactId>
+    <artifactId>gmall-parent</artifactId>
     <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
+    <description>商城项目</description>
+
+    <modelVersion>4.0.0</modelVersion>
+
     <modules>
         <module>gmall-mpg</module>
+        <module>gmall-business-service</module>
+        <module>gmall-product-service</module>
         <module>gmall-common</module>
         <module>gmall-api</module>
     </modules>
-    <name>gmall</name>
-    <description>商城项目</description>
+
+    <properties>
+        <!--系统配置-->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+
+        <!--第三方版本号-->
+        <alibaba.fastjson.version>1.2.68</alibaba.fastjson.version>
+        <dubbo.version>2.7.5</dubbo.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-spring-boot-starter</artifactId>
+                <version>2.7.5</version>
+            </dependency>
+
+
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+
+    </dependencies>
+
 </project>

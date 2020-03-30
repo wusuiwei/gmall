@@ -13,13 +13,13 @@ import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
 public class CodeGenerator {
     public static void main(String[] args) {
 
-        String moduleName = "pms";
+        String moduleName = "ums";
         // 1.创建代码生成器
         AutoGenerator mpg = new AutoGenerator();
 
         // 2.全局配置
         GlobalConfig gc = new GlobalConfig();
-        gc.setOutputDir("D:\\code\\github\\gmall\\gmall-mpg\\src\\main\\java");
+        gc.setOutputDir("D:\\code\\github\\gmall-parent\\gmall-mpg\\src\\main\\java");
         gc.setAuthor("wusuiwei");
         gc.setFileOverride(true);//重新生成时覆盖原文件
         gc.setSwagger2(true);//开启swagger2模式
