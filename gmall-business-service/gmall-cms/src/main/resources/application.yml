@@ -1,0 +1,11 @@
+server:
+  port: 7001
+spring:
+  application:
+    name: gmall-business-cms
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.159.128:8848
+        group: gmall-business
+        enabled: true

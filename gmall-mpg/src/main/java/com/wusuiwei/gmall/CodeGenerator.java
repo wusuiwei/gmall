@@ -24,7 +24,7 @@ public class CodeGenerator {
         gc.setFileOverride(true);//重新生成时覆盖原文件
         gc.setSwagger2(true);//开启swagger2模式
         gc.setIdType(IdType.AUTO);//主键生成策略
-        gc.setServiceName("%Service");//去掉Service接口的首字母I
+        gc.setServiceName("%sService");//去掉Service接口的首字母I
         mpg.setGlobalConfig(gc);
 
         // 3.数据源配置
