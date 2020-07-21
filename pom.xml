@@ -20,7 +20,6 @@
         <module>gmall-business-service</module>
         <module>gmall-product-service</module>
         <module>gmall-common</module>
-        <module>gmall-api</module>
     </modules>
 
     <properties>
@@ -37,12 +36,10 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.apache.dubbo</groupId>
-                <artifactId>dubbo-spring-boot-starter</artifactId>
-                <version>2.7.5</version>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-nacos-discovery</artifactId>
+                <version>0.9.0.RELEASE</version>
             </dependency>
-
-
         </dependencies>
     </dependencyManagement>
 
