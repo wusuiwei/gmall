@@ -1,8 +1,8 @@
 server:
-  port: 7005
+  port: 8001
 spring:
   application:
-    name: gmall-bussiness-ums
+    name: gmall-admin-web
   cloud:
     nacos:
       discovery:
