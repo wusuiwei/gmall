@@ -1,7 +1,7 @@
 # Gmall 商城实战项目
 
 <p>
-    <a href="#个人博客"><img src="http://wusuiwei.github.io" alt="个人博客"></a>
+    <a href="http://wusuiwei.github.io"><img src="https://img.shields.io/badge/Blog-博客地址-blue.svg" alt="个人博客"></a>
 </p>
 
 # 前言
